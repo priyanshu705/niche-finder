@@ -1,0 +1,7 @@
+{
+  "name": "niche-finder",
+  "version": "0.1.0",
+  "private": true,
+  "description": "AI chat interview that finds a person's niche and builds report, PPT and workbook",
+  "scripts": { "dev": "node server.js", "dev:mock": "MOCK=1 node server.js" }
+}
