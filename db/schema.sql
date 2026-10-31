@@ -1,4 +1,4 @@
-b/create table if not exists niche_sessions (
+create table if not exists niche_sessions (
   id uuid primary key default gen_random_uuid(),
   created_at timestamptz default now(),
   client_name text,
