@@ -1,5 +1,5 @@
 // Shared helpers for the serverless functions.
-const MODEL = process.env.GEMINI_MODEL || 'gemini-2.5-flash';
+const MODEL = process.env.GEMINI_MODEL || 'gemini-3.8-flash';
 
 const LANGS = {
   hinglish: 'Hinglish: Hindi written in Roman letters mixed with simple English, casual and warm, the way people talk on WhatsApp',
